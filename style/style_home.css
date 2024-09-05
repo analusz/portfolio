@@ -1,0 +1,101 @@
+section#home{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+#container-navbar{grid-column-start: 1; grid-column-end: 5;}
+#container-inicio{grid-column-start: 1; grid-column-end: 5;}
+
+#container-navbar{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#container-navbar img{
+    width: 30px;
+}
+
+#container-navbar ul{
+    display: flex;
+    gap: 20px;
+}
+
+#container-navbar li a{
+    text-decoration: none;
+    font-family: "Poppins";
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#container-navbar ul li{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+#logo p{
+    font-family: "Poppins";
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/*HOME INICIO-------------------------------------------------------------------------------------------*/
+
+#container-inicio{
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-top-left-radius: 10px;
+    border: 1px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+#corpo{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#corpo h1{
+    text-align: center;
+    font-family: "coffee";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 65px;
+}
+
+#corpo img{ 
+    width: 400px;
+}
+
+
+
+
+

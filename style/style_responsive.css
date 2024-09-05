@@ -1,0 +1,199 @@
+/*Home navbar 975px-------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 975px) {
+    #corpo img {
+        width: 300px;
+    }
+
+    #corpo h1 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+}
+
+/*Sobre e habilidades--------------------------*/
+
+@media screen and (max-width: 975px) {
+    #card {
+        width: 180px;
+        height: 230px;
+    }
+}
+
+/*FIM --------------------------*/
+@media screen and (max-width: 975px) {
+    #container-contact button{
+        height: 100px;
+        width: 100px;
+        font-size: 15px;
+    }
+}
+
+/*Sobre e habilidades 880px---------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 880px) {
+    #card {
+        width: 150px;
+        height: 240px;
+    }
+}
+
+/*FIM --------------------------*/
+@media screen and (max-width: 880px) {
+    #container-contact button{
+        height: 80px;
+        width: 80px;
+        font-size: 12px;
+    }
+
+    #container-contact img{
+        width: 30px;
+    }
+
+}
+
+/*inicio 768px---------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 768px){
+    #corpo h1 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #text-projetos{
+        font-size: 30px;
+    }
+
+    #text-sobre{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #container-projeto h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    #container-projeto p{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    #container-projeto button{
+        font-size: 15px;
+    }
+
+    #container-projeto img{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 736px){
+    #skills-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #bem-vindo{
+        display: none;
+    }
+
+}
+
+/*Home navbar 480px-------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    #container-navbar {
+        justify-content: space-around;
+    }
+
+    #container-navbar #logo {
+        display: none;
+    }
+
+
+}
+
+/*Home inicio --------------------------*/
+
+@media screen and (max-width: 480px) {
+    #container-inicio #corpo {
+        flex-direction: column-reverse;
+        padding-bottom: 20px;
+        gap: 15px;
+    }
+
+    #corpo img {
+        width: 300px;
+    }
+
+    #corpo h1 {
+        font-size: 20px;
+        line-height: 17px;
+    }
+}
+
+/*Projetos --------------------------*/
+
+@media screen and (max-width: 480px) {
+    section#projetos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #text-projetos {
+        font-size: 20px;
+    }
+}
+
+/*Sobre e habilidades--------------------------*/
+
+@media screen and (max-width: 480px) {
+    section#sobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #text-sobre {
+        font-size: 20px;
+    }
+
+    #skills-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #card {
+        backdrop-filter: blur(15px);
+        width: 250px;
+        height: 200px;
+    }
+}
+
+/*FIM --------------------------*/
+
+@media screen and (max-width: 480px) {
+    #bem-vindo {
+        display: none;
+    }
+
+    #container-contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #container-contact button {
+        font-size: 15px;
+        width: 120px;
+        height: 120px;
+    }
+
+}
+
+
+@media screen and (max-width: 320px){
+    #corpo img {
+        width: 250px;
+    }
+}

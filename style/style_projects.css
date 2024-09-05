@@ -1,0 +1,82 @@
+section#projetos {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#text-projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: "howdy";
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 40px;
+    font-weight: 500;
+    background-image: url(/img/fundo.png);
+    background-position: top;
+    background-size: cover;
+}
+
+/*CAIXAS DE PROJETOS-------------------------------------------------------------------------------------------*/
+#container-projeto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#container-projeto img{
+    width: 200px;
+}
+
+#container-projeto h1{
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+#container-projeto p{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+#container-projeto button a{
+    text-decoration: none;
+    color: black;
+}
+
+#container-projeto button{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 7px;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 900;
+    transition: all 0.2s ease-in-out;
+    width: 100px;
+    margin-top: 15px;
+}
+
+#container-projeto button:hover{
+    background-color: #eee;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px black;
+}
+
+
