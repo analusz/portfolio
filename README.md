@@ -6,6 +6,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [ ] Aplicar Responsividade.
 - [ ] Organizar melhor o código.
+- [ ] Adicionar outro formato de fonte além do otf.
 
 ## Siga nas redes
 <a href="https://www.instagram.com/analu.szribeiro/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
