@@ -34,7 +34,7 @@ section#sobre{
     grid-column-end: 4;
     font-size: 40px;
     font-weight: 500;
-    background-image: url(/img/fundo3.png);
+    background-image: url(https://analusz.github.io/portfolio/img/fundo3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -105,7 +105,7 @@ section#sobre{
     justify-content: center;
     padding-bottom: 30px;
     border: 1px solid black;
-    background-image: url(/img/fundo2.svg);
+    background-image: url(https://analusz.github.io/portfolio/img/fundo2.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
