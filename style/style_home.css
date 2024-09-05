@@ -65,7 +65,7 @@ section#home{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/fundo.png);
+    background-image: url(https://analusz.github.io/portfolio/img/fundo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
