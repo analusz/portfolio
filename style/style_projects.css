@@ -18,7 +18,7 @@ section#projetos {
     grid-column-end: 4;
     font-size: 40px;
     font-weight: 500;
-    background-image: url(/img/fundo.png);
+    background-image: url('https://analusz.github.io/portfolio/img/fundo.png');
     background-position: top;
     background-size: cover;
 }
